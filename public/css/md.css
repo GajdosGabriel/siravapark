@@ -1,0 +1,37 @@
+#carouselMain .carousel-caption .top {
+  text-align: center;
+}
+#carouselMain .carousel-caption .top .title {
+  font-size: 36px;
+}
+#carouselMain .carousel-caption .bottom #soc {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#carouselMain .carousel-caption .bottom .right {
+  text-align: center;
+  width: 100%;
+}
+#carouselMain .carousel-caption .bottom .text {
+  margin-bottom: 10px;
+}
+
+.blockHeader {
+  margin: 35px 0 20px 0;
+}
+
+.pic {
+  min-height: 350px;
+}
+
+#pageFooter {
+  padding: 50px;
+}
+#pageFooter #socials {
+  margin: 35px 0;
+}
+
+.row.icons img {
+  width: auto;
+}

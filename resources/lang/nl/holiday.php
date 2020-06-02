@@ -1,0 +1,37 @@
+<?php 
+
+return [
+
+    'title' => 'Gratis vakantie',
+    '1' => 'Om een gratis weekend in Šírava Park met full accommodatie te winnen * willen we U vragen deze 4 vragen te beantwoorden. Dit is belangrijke informatie voor het ntwikkelingsteam van Šírava Park:',
+    '2' => 'In wat voor soort onroerend goed zou je willen verblijven in Šírava Park Glamping?',
+    '3' => 'Appartemen',
+    '4' => ' Eengezinswoningen ',
+    'semi' => 'Halfvrijstaande huizen',
+    'standard' => 'Standaard huizen',
+    '5' => 'Villas',
+    '6' => 'Zou u geïnteresseerd zijn in huren of kopen?',
+    '7' => 'Koop als tweede huis',
+    '8' => 'Kopen om te verhuren',
+    '9' => 'Huur',
+    '10' => 'Welk bedrag zou u ervoor willen betalen?',
+    '11' => 'Te koop tussen: (Euro)',
+    '12' => 'Te huur tussen: (Euro per dag)',
+    '13' => 'Wat is je favoriete gebied in Sirava Park?',
+    '14' => 'Zwembad',
+    '15' => 'Sociaal gebied',
+    '16' => 'Strand',
+    '17' => 'Heeft u suggesties voor activiteiten en diensten op de Boulevard?',
+    '18' => 'Commentaar',
+    '19' => 'Voor-en achternaam',
+    '20' => 'E-mail',
+    '21' => 'Telefoonnummer',
+    '22' => '* Zie de algemene voorwaarden voor het winnen van deze vakantie',
+    '23' => 'land',
+    'submit' => 'voorleggen',
+    'thanks' => 'Dank je! We hebben uw inzending ontvangen.',
+    'winner' => 'Laatste winnaar',
+    'glamping' => '„Dome“ voor 2 personen',
+    'apartmans' => '„Dome“ voor 4 personen',
+
+];

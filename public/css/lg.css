@@ -1,0 +1,60 @@
+.navbar .navbar-nav .nav-item a {
+  padding: 10px;
+}
+
+.columns-2 {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+}
+
+.blockHeader {
+  margin: 35px 0 35px 0;
+}
+.blockHeader h3 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+hr {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.pic {
+  min-height: 400px;
+}
+.pic .bottom {
+  bottom: 20px;
+  text-align: center;
+}
+
+#pageFooter #socialsContainer {
+  padding: 0 100px;
+}
+
+.pageHeader .text .title {
+  font-size: 32px;
+  margin-top: 0;
+}
+.pageHeader .text .subtitle {
+  font-size: 20px;
+}
+
+.row.icons {
+  margin-bottom: 20px;
+}
+.row.icons img {
+  width: 80px;
+}
+
+#siravaBlock .blockHeader {
+  height: 60px;
+}
+#siravaBlock .blockHeader #blockLogo {
+  height: 80px;
+}
+
+ul.sirava {
+  font-size: 18px;
+}

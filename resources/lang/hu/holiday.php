@@ -1,0 +1,41 @@
+﻿<?php
+
+return [
+
+    'title' => 'Ingyenes nyaralás',
+    '1' => 'Nyerjen ingyenes hétvégi vakációt a Šírava Parkban, teljes szálláshellyel *. Arra kérjük Önt, hogy válaszoljon a következő 4 kérdésre, amelyek fontosak a Šírava Park csapata számára:',
+    '3' => 'Apartmanok',
+    '4' => 'Teraszos házak',
+    'semi' => 'Ikerházak',
+    'standard' => 'Standard házak',
+    '5' => 'Villák',
+    '7' => 'Vásárlás második otthona',
+    '8' => 'Vásárlás az engedélyezéshez',
+    '9' => 'Bérlés',
+    '11' => 'Vásárlás: (euró) között',
+    '13' => 'Mi a kedvenc területed a Šírava Parkban?',
+    '14' => 'Medence terület',
+    '15' => 'Szociális terület',
+    '16' => 'Beach area',
+    '17' => 'Van valami ötlet tevékenységre vagy szolgáltatásra számunkra a sétányon?',
+    '18' => 'Megjegyzések',
+    '19' => 'Teljes név',
+    '20' => 'E-mail',
+    '21' => 'Telefonszám',
+    '22' => '*Lásd az Ingyenes nyaralás megszerzésének feltételeit',
+    '23' => 'Ország',
+    'submit' => 'Küldés',
+    'thanks' => 'Köszönöm! Megkaptuk a bejegyzést.',
+    'winner' => 'Utolsó győztes',
+
+    '2' => 'Milyen típusú szállást jobban szeretne a Šírava parkban Glamping?',
+    'glamping' => '„Dome“ 2 fő részére',
+    'apartmans' => '„Dome“ 4 fő részére',
+    '6' => 'Meddig szeretne maradni a Šírava Parkban?',
+    'weekend1' => 'Hétvége',
+    'weekend2' => 'A hét folyamán',
+    'weekend3' => 'Hét + (ünnepekre)',
+    '10' => 'Mennyit hajlandó fizetni a szállás ért?',
+    '12' => 'Bérlés között: (Eur / nap)',
+
+];

@@ -1,0 +1,1 @@
+<span class="badge" style="background-color:{{ $objRole->bg_color }};color:{{ $objRole->color }}">{{ $objRole->name }}</span>

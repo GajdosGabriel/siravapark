@@ -1,0 +1,41 @@
+<?php
+
+return [
+
+    'title' => 'Dovolenka zdarma',
+    '3' => 'Bytové domy',
+    '4' => 'Spoločenská zóna',
+    'semi' => 'Dvojdomy',
+    'standard' => 'Štandardné domy',
+    '5' => 'Fitness',
+    '7' => 'Kúpa ako druhý domov',
+    '8' => 'Kúpa na prenájom',
+    '9' => 'Nájom',
+    '11' => 'Pre kúpu medzi: (Eur)',
+    '13' => 'Aká je vaša obľúbená oblasť v Šírava Parku?',
+    '14' => 'Bazénová časť',
+    '15' => 'Spoločenský priestor',
+    '16' => 'Plážová časť',
+    '17' => 'Máte pre nás nejaké nápady pre aktivity alebo služby na Promenáde?',
+    '18' => 'Komentár',
+    '19' => 'Celé meno',
+    '20' => 'E-mail',
+    '21' => 'Telefón',
+    '22' => '*Všeobecné podmienky pre výhru dovolenky',
+    '23' => 'Krajina',
+    'submit' => 'Odoslať',
+    'thanks' => 'Ďakujeme! Zaznamenali sme Vašu odpoveď.',
+    'winner' => 'Posledný víťaz',
+
+    '1' => 'Vyhrajte voľnú víkendovú dovolenku v Šírava Park s kompletným ubytovaním*. Radi by sme Vás požiadali o odpoveď na nasledujúce 4 otázky, ktoré sú dôležité pre tím Šírava Park:',
+    '2' => 'V akom type ubytovania by ste preferovali stráviť pobyt v Šírava parku Glamping?',
+    'glamping' => '„Dome“ pre 2 osoby',
+    'apartmans' => '„Dome“ pre 4 osoby',
+    '6' => 'Ako dlho by ste chceli zostať v Šírava Park?',
+    'weekend1' => 'Víkend',
+    'weekend2' => 'Počas týždňa',
+    'weekend3' => 'Týždeň +  (na prázdniny)',
+    '10' => 'Akú sumu ste ochotný za Váš pobyt zaplatiť?',
+    '12' => 'Prenájom medzi: (Eur za deň)',
+
+];

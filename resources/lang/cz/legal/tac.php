@@ -1,0 +1,27 @@
+<?php
+
+return [
+
+    'title' => 'VŠEOBECNÉ OBCHODNÍ PODMÍNKY A PRAVIDLA SOUTĚŽE O VÝHRU "POBYT PRO 2 OSOBY - Šírava PARK"',
+    'cond' => 'Podmínky:',
+    '1' => '1. Tato výhra ("propagace") je otevřena pouze pro obyvatele EU, s výjimkou zaměstnanců a zástupců (a) organizátora nebo (b) jakékoliv společnosti spojené s výrobou nebo distribucí této propagační akce, jakož i jejich příbuzné nebo jejich rodinných příslušníků nebo domácnosti.',
+    '2' => '2. Soutěže se mohou zúčastnit pouze osoby starší 18 let. Doklad totožnosti musí poskytnout na požádání. Přihlášením do soutěže soutěžící souhlasí se všemi podmínkami a pravidly této soutěže.',
+    '3' => '3. Soutěž začíná v 11:00 ve čtvrtek 8. listopadu 2018 a datum konce soutěže je 4. listopadu 2020 v 16:00 h ( "Trvání soutěže").',
+    '4' => '4. Bude jeden vítěz, jehož náhodně vybere nezávislá osoba ze všech přihlášených dne 8. listopadu 2020. Vítězi organizátor oznámí výhru e-mailovou formou nebo prostřednictvím zpráv na sociálních médiích do jednoho týdne ode dne konce soutěže spolu i s podmínkami, kde a jak si může převzít cenu. Pokud se vítěz do jednoho týdne neohlásí a nedostaví pro výhru, organizátor následně znovu vylosuje nezávislou osobou nového vítěze, který bude kontaktován výše uvedenou formou.',
+    '5' => '5. Soutěžící souhlasí se spoluprací a poskytnutím osobních údajů organizátorovi pro účely spojené se soutěží jako jsou reklamní účely, zveřejnění jména a fotografie vítěze na webových stránkách organizátora. Kromě toho, předložením přihlášky a vzhledem k tomu, že organizátor udělil právo vstoupit do propagační akce, se účastníci dohodnou, že poskytnou organizátorovi trvalé, bezplatné, nevýhradní právo poskytovat sublicence a licenci na používání, reprodukci, úpravu, upravovat, publikovat, překládat, vytvářet odvozená díla, distribuovat a provádět všechna autorská a reklamní práva ve vztahu k jakýmkoli materiálem obsaženým v položce (včetně, nikoli však výhradně, textu, obrázků nebo videozáznamů) (dále jen "materiály") / nebo začlenit materiály do jiných děl v jakémkoli médiu, které je v současnosti známé nebo později vyvinuté na plné období jakýchkoli práv, které mohou existovat v materiálech. Předáním materiálů do soutěže účastník:',
+    '5a' => 'a. zaručuje, že materiály jsou vlastní originální prací a že má právo zpřístupnit je na všechny výše uvedené účely; že neporušuje žádné právo; že není obscénní nebo urážlivé; a že neporušuje práva jakékoli třetí strany;',
+    '5b' => 'b. souhlasí s tím, že bude chránit poskytovatele proti všem právním poplatkům, škodám a jiným výdajům, které mohou vzniknout v důsledku porušení výše uvedené záruky;',
+    '5c' => 'c. souhlasí s tím, že se vzdává jakýchkoli morálních práv v materiálech pro účely jejich předložení a zveřejnění ze strany organizátora a výše uvedených účelů.',
+    '6' => '6. Přihlášením do soutěže každý účastník uznává a souhlasí s tím, že organizátor může poslat marketingový materiál na e-mailovou adresu poskytnutou účastníkem. Při každém takovém e-mailu mají účastníci možnost odhlásit se od dalších e-mailů.',
+    'general' => 'Všeobecně',
+    '7' => '7. Rozhodnutí organizátora o všech záležitostech jsou konečná a žádná propagační korespondence nebo diskuze nebude přípustná. Organizátor si vyhrazuje právo na základě vlastního uvážení: (a) diskvalifikovat každého žadatele, konkurenta nebo kandidáta, jehož chování je v rozporu s duchem pravidel nebo úmyslem propagace a prohlásit za neplatné některé nebo všechny jejich nároky nebo vstupy založené na takovém chování; (B) prohlásit za neplatné jakékoli nároky nebo vstupy vyplývající z jakýchkoliv chyb při tisku, výrobě a / nebo distribuci (včetně, ale bez omezení na jakékoli chyby na webových stránkách organizátora, jakýchkoliv herních karet a / nebo jiných tištěných materiálů) nebo pokud došlo k chybě v jakémkoliv aspektu přípravy nebo provádění propagace, která podstatně ovlivňuje výsledek propagace nebo počet předkladatelů nebo hodnotu nároků; c) přidat nebo upustit od jakýchkoliv pravidel s přiměřeným oznámením; a / nebo (d) zrušení propagace nebo jakékoliv její části v jakémkoliv stádiu v případě okolností nad rámec přiměřené kontroly organizátora.',
+    '8' => '8. Nebudou akceptovány žádné hromadné položky, od agentů nebo třetích stran.',
+    '9' => '9. V plném rozsahu povoleném zákonem (s výhradou odstavce 14 níže), organizátor vylučuje všechny záruky, vyjádření a závazky (ať už slovem nebo implicitně) týkající se této soutěže a / nebo ceny.',
+    '10' => '10. Žádné ustanovení těchto podmínek nebude vylučovat odpovědnost organizátora za: (i) smrt nebo zranění osob v důsledku nedbalosti; ii) podvod nebo podvodné zkreslení; nebo (iii) jakýkoli závazek, který nemůže být omezen nebo vyloučen zákonem.',
+    '11' => '11. Organizátor si vyhrazuje právo na základě vlastního uvážení pozměnit, pozastavit nebo zrušit soutěž v případě viru, chyby, manipulace, podvodu nebo jiné příčiny mimo oprávněné kontroly organizátora poškozují nebo brání zprávě, bezpečnosti průběhu soutěže.',
+    '12' => '12. Pokud se některé z ustanovení těchto podmínek považuje za neplatné nebo zcela nevymahatelné, tato část se oddělí od ostatních ustanovení a platnost ostatních ustanovení a zbytek příslušného ustanovení nebudou dotčeny.',
+    '13' => '13. Tyto podmínky se řídí zákony České republiky a jakýkoliv spor bude podléhat výlučné pravomoci Slovenská soudů.',
+    '14' => '14. Organizátorem je Šírava Park, s.r.o.',
+    'past' => 'Minulí vítězové',
+
+];

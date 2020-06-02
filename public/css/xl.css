@@ -1,0 +1,17 @@
+#carouselMain .carousel-caption .top .title {
+  font-size: 48px;
+}
+#carouselMain .carousel-caption .top .subtitle {
+  font-size: 24px;
+}
+#carouselMain .carousel-caption .bottom {
+  bottom: 5%;
+}
+
+.pic {
+  min-height: 600px;
+}
+
+#pageFooter #socialsContainer {
+  padding: 0 300px;
+}

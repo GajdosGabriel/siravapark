@@ -1,0 +1,37 @@
+<?php
+
+return [
+
+    'title' => 'Urlaub frei',
+    '1' => 'Mochten Sie ein Wochenende in der Šírava Park mit voller unterbringung gewinnen dann beantworten Sie uns 4 fragen. Ihre Angaben sind wichtig fur unser Entwicklungsteamdes Šírava Park:',
+    '2' => 'Für welche Art von Immobilien interessieren Sie sich für einen Aufenthalt im Šírava Park Glamping?',
+    '3' => 'Apartments',
+    '4' => 'Reihenhäuser',
+    'semi' => 'Doppelhäuser',
+    'standard' => 'Standardhäuser',
+    '5' => 'Villen',
+    '6' => 'Möchten Sie mieten oder kaufen?',
+    '7' => 'Als Zweitwohnung kaufen',
+    '8' => 'Kaufen zu vermieten',
+    '9' => 'Miete',
+    '10' => 'Welchen Betrag würden Sie dafür zahlen?',
+    '11' => 'Kaufen zwischen: (Euro)',
+    '12' => 'Miete zwischen: (Euro pro Tag)',
+    '13' => 'Was ist dein Lieblingsbereich im Sirava Park?',
+    '14' => 'Poolbereich',
+    '15' => 'Sozialer Bereich',
+    '16' => 'Strandbereich',
+    '17' => 'Haben Sie Ideen für Aktivitäten oder Dienstleistungen an der Promenade?',
+    '18' => 'Kommentar',
+    '19' => 'Vollständiger Name',
+    '20' => 'E-mail',
+    '21' => 'Telefon',
+    '22' => '*Siehe Nutzungsbedingungen für diesen Urlaub',
+    '23' => 'Land',
+    'submit' => 'Submit',
+    'thanks' => 'Danke! Wir haben Ihre Einsendung erhalten.',
+    'winner' => 'Letzter Gewinner',
+    'glamping' => '„Dome“ für 2 personen',
+    'apartmans' => '„Dome“ für 4 personen',
+
+];

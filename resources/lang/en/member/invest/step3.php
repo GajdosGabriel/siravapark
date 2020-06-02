@@ -1,0 +1,40 @@
+<?php
+
+return [
+
+    'bank' => 'Bank transfer',
+    'credit' => 'Credit card',
+    'iban' => 'IBAN number:',
+    'holderName' => 'Account holder name:',
+    'holderAddress' => 'Account holder address:',
+    'bankName' => 'Bank name:',
+    'bankAddress' => 'Bank address:',
+    'bic' => 'BIC / SWIFT code:',
+    'amount' => 'Amount:',
+    'reason' => 'By reason/massage/purpose of transfer fill in:',
+    'pr' => 'Loan to Šírava Park, s.r.o. for Promissory note(s) number(s):',
+    'transfer' => 'Proof of transfer',
+    'bankDetails' => 'Your bank details',
+    'off' => 'Official cost per transfer of our bank ČSOB:',
+    'submitted' => 'Your bank details are submitted.',
+    '1' => 'Slovak national or EU cost per transfer:',
+    '2' => 'EU, Island, Lichtenstein and Norway',
+    '3' => 'The amount which not exceed 50.000 euro',
+    '4' => 'Transfer 48 hours excluding weekends and national holidays',
+    '5' => 'SEPA payments charge max 2,50 euro per transfer',
+    '6' => 'International transfer with SWIFT:',
+    '7' => 'Middle & South America, Middle east, Africa, Asia, AUS and NZL',
+    '8' => 'Transfer max 5 days excluding weekends and national holidays',
+    '9' => 'OUR transactions 0,70% per transaction or minimum 35 Euro',
+    '10' => 'SHA transactions 0,60% per transaction or minimum 21 Euro',
+    'ready' => 'Finish this investment!',
+    'finish' => 'Finishing the investment is necessary if you want to invest in more of our projects.',
+    'text' => 'You can see detailed reports of all your investments anytime on',
+    'text2' => 'page, which is accessible from main navigation in upper right corner of website.',
+    'finish2' => 'Finish investment',
+    'notary' => 'notary',
+    'tdoReason' => 'Future Deposit to Capital Funds of Šírava Development, s.r.o.; investment contract number:',
+    '11' => 'Please fill in your bank details, where we will send you the interest payments.',
+    '12' => 'I hereby confirm that I have transferred the investment to CEE bank account shown above, or I have copied the bank details and will transfer the investment as soon as possible.'
+
+];
