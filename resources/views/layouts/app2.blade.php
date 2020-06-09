@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="{{ asset('css/md.css') }}" media="(min-width:768px)">
     <link rel="stylesheet" href="{{ asset('css/lg.css') }}" media="(min-width:992px)">
     <link rel="stylesheet" href="{{ asset('css/xl.css') }}" media="(min-width:1200px)">
+    <link rel="stylesheet" href="{{ mix('css/tailwind.css') }}">
+{{--    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">--}}
     @yield('addCSS')
     <title>@yield('title', 'Šírava Park')</title>
 

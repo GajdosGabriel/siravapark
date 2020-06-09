@@ -1,4 +1,6 @@
 const mix = require('laravel-mix');
+const tailwindcss = require('tailwindcss');
+require('laravel-mix-purgecss');
 
 /*
  |--------------------------------------------------------------------------
@@ -19,3 +21,10 @@ mix.js('resources/js/app.js', 'public/js')
     .copyDirectory('node_modules/lightbox2/dist/images', 'public/css/lightbox/images')
     .copy('node_modules/lightbox2/dist/js/lightbox.min.js', 'public/js/lightbox')
     .sass('resources/sass/app.scss', 'public/css');
+
+mix.js('resources/js/tailwind.js', 'public/js')
+    .sass('resources/sass/tailwind.scss', 'public/css')
+    .options({
+        processCssUrls: false,
+        postCss: [ tailwindcss('./tailwind.config.js') ],
+    }).purgeCss();
