@@ -44,6 +44,18 @@
 
                     <strong>@lang('legal/taborisko-faq.title10')</strong>
                     <p>@lang('legal/taborisko-faq.text101')</p>
+                    <p>@lang('legal/taborisko-faq.text102')</p>
+
+                    <strong>@lang('legal/taborisko-faq.title11')</strong>
+                    <p>@lang('legal/taborisko-faq.text111')</p>
+
+                    <strong>@lang('legal/taborisko-faq.title12')</strong>
+                    <p>@lang('legal/taborisko-faq.text121')</p>
+
+                    <strong>@lang('legal/taborisko-faq.title13')</strong>
+                    <p>@lang('legal/taborisko-faq.text131')</p>
+
+
 
 
 
@@ -65,7 +77,7 @@
 
             <div class="modal-footer">
 
-                <button type="button" class="btn btn-primary"  data-dismiss="modal" aria-label="Close">Close</button>
+                <button type="button" class="btn btn-primary"  data-dismiss="modal" aria-label="Close">@lang('general.close')</button>
             </div>
         </div>
     </div>

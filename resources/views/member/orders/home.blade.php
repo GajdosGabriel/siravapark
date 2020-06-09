@@ -4,19 +4,24 @@
 
 @section('content')
 
-    <div id="app" class="container mx-auto px-4 py-5 min-h-screen md:flex">
+    <div id="app" class="container mx-auto px-4 py-5 min-h-screen">
 
-        <div class="md:w-1/4">
-            <form action="{{ route('order.store') }}" method="POST">
-                @csrf
-                <h2 class="text-lg font-semibold">Order form</h2>
+        <order-form inline-template>
+            <div class="md:w-full">
+                <div class="flex items-center justify-between">
+                    <h2 class="text-lg font-semibold">Order form</h2>
+                    <button @click="isOpen =! isOpen" class="bg-blue-600 text-white py-2 px-5 mt-4 font-semibold  rounded shadow-md hover:bg-blue-400">Add</button>
+                </div>
+                <transition name="slide">
+                <form v-show="isOpen" action="{{ route('order.store') }}" method="POST">
+                    @csrf
+                    @include('member.orders._form')
+                </form>
+                    </transition>
+            </div>
+        </order-form>
 
-                @include('member.orders._form')
-
-            </form>
-        </div>
-
-        <div class="md:w-3/4 p-5">
+        <div class="w-full mt-12">
             <table class="table-auto">
                 <thead class="bg-gray-400">
                 <tr>

@@ -1,4 +1,4 @@
-@extends('public/_layout2')
+@extends('layouts.app2')
 
 @section('title') Šírava Park - Boulevard @endsection
 

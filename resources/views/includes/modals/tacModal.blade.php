@@ -58,10 +58,10 @@
 
                 <div class="row">
 
-                    <div class="col-12 col-lg-4">
-                        <img src="{{ asset('images/winner/2019_november.jpg') }}" class="img-fluid d-block" alt="">
-                        <p class="h4 text-center xs-mt-10">Jozef Žembery</p>
-                    </div>
+{{--                    <div class="col-12 col-lg-4">--}}
+{{--                        <img src="{{ asset('images/winner/2019_november.jpg') }}" class="img-fluid d-block" alt="">--}}
+{{--                        <p class="h4 text-center xs-mt-10">Jozef Žembery</p>--}}
+{{--                    </div>--}}
 
                     <div class="col-12 col-lg-4">
                         <img src="{{ asset('images/winner/2019_10.jpg') }}" class="img-fluid d-block" alt="">

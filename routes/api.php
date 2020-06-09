@@ -17,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/activity', 'APIController@activity');
+Route::get('/leads', 'APIController@leads');
+Route::get('/glamping', 'APIController@glamping');
+Route::get('/leadsBoulevard', 'APIController@leadsBoulevard');
+Route::get('/sign-ups', 'APIController@sign_ups');
+

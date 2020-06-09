@@ -131,7 +131,7 @@
 
 @section('footer')
 
-    @include('footer')
+    @include('layouts.footer')
 @show
 
 @impersonating

@@ -4,14 +4,13 @@ namespace App;
 
 use Spatie\Permission\Traits\HasRoles;
 use Illuminate\Notifications\Notifiable;
-use Lab404\Impersonate\Models\Impersonate;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    use HasRoles, Notifiable, Impersonate, SoftDeletes;
+    use HasRoles, Notifiable, SoftDeletes;
 
     /**
      * The attributes that are mass assignable.

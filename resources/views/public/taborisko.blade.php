@@ -1,4 +1,4 @@
-@extends('public/_layout2')
+@extends('layouts.app2')
 
 @section('title') Šírava Park - Táborisko @endsection
 
@@ -69,15 +69,15 @@
 
         <div class="row mb-4">
             <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko19.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko19.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko24.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko24.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
             </div>
 
             <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko20.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko20.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko25.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko25.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
             </div>
 
             <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko21.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko21.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko26.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko26.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
             </div>
 
         </div>

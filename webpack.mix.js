@@ -12,4 +12,10 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .js('resources/js/main.js', 'public/js')
+    .copy('node_modules/aos/dist/aos.css', 'public/css/aos')
+    .copy('node_modules/aos/dist/aos.js', 'public/js/aos')
+    .copy('node_modules/lightbox2/dist/css/lightbox.min.css', 'public/css/lightbox/css')
+    .copyDirectory('node_modules/lightbox2/dist/images', 'public/css/lightbox/images')
+    .copy('node_modules/lightbox2/dist/js/lightbox.min.js', 'public/js/lightbox')
     .sass('resources/sass/app.scss', 'public/css');

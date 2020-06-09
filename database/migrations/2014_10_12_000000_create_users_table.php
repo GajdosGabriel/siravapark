@@ -15,14 +15,12 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('referral_id')->unsigned()->nullable()->index('fk_user-referral_idx');
-            $table->string('name', 30);
-            $table->string('surname', 50);
+            $table->string('name', 40);
             $table->string('email', 70)->unique('email_UNIQUE');
             $table->string('password', 300);
             $table->string('phone_code', 4)->nullable();
-            $table->string('phone', 20);
-            $table->string('country', 3);
+            $table->string('phone', 20)->nullable();
+            $table->string('country', 3)->nullable();
             $table->string('remember_token', 100)->nullable();
             $table->string('company', 100)->nullable();
             $table->string('url', 100)->nullable();

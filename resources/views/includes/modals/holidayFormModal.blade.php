@@ -134,8 +134,8 @@
 
                 <div class="row">
                     <div class="col-12 col-lg-8 offset-lg-2">
-                        <img src="{{ asset('images/winner/2019_november.jpg') }}" class="img-fluid d-block" alt="">
-                        <p class="h4 text-center xs-mt-10">Jozef Žembery</p>
+                        <img src="{{ asset('images/winner/2019_10.jpg') }}" class="img-fluid d-block" alt="">
+                        <p class="h4 text-center xs-mt-10">Ivana Regecová</p>
                     </div>
                 </div>
 

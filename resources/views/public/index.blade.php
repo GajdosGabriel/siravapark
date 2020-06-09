@@ -1,4 +1,4 @@
-@extends('public/_layout')
+@extends('layouts.app')
 
 {{--@section('otherMeta')--}}
 {{--    <meta property="og:url"                content="{{ env('APP_URL') }}" />--}}

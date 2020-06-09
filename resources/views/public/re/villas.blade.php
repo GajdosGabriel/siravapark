@@ -1,4 +1,4 @@
-@extends('public/_layout2')
+@extends('layout._layout2')
 
 @section('title')
     Šírava Park - @lang('re/villas.title')

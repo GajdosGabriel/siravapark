@@ -1,17 +1,9 @@
 {
-    "/js/app.js": "/js/app.js?id=1e681737adec71186b3c",
-    "/css/app.css": "/css/app.css?id=d804e09eeb9ee62c1c58",
-    "/css/xs.css": "/css/xs.css?id=96795b92b50b9a194f70",
-    "/css/sm.css": "/css/sm.css?id=d41d8cd98f00b204e980",
-    "/css/md.css": "/css/md.css?id=0f982dd49ea41f18b71f",
-    "/css/lg.css": "/css/lg.css?id=2ac8fc25ed105c48a1db",
-    "/css/xl.css": "/css/xl.css?id=ba0ce5296de18af348b2",
-    "/css/xxl.css": "/css/xxl.css?id=555600cdc1b891247aac",
-    "/js/main.js": "/js/main.js?id=d73152cd64e7e99e38b3",
-    "/css/fontawesome/css/all.min.css": "/css/fontawesome/css/all.min.css?id=e4c542a7f6bf6f74fdd8",
-    "/css/aos/aos.css": "/css/aos/aos.css?id=847da8fca8060ca1a70f",
-    "/js/aos/aos.js": "/js/aos/aos.js?id=d3718e34eeb0355be8e3",
-    "/css/lightbox/css/lightbox.min.css": "/css/lightbox/css/lightbox.min.css?id=767938d77eef356b1ba7",
-    "/js/lightbox/lightbox.min.js": "/js/lightbox/lightbox.min.js?id=754f3b83f87764db45e3",
-    "/js/chart/Chart.min.js": "/js/chart/Chart.min.js?id=b235b564de9c2c1d61d7"
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/main.js": "/js/main.js",
+    "/css/aos/aos.css": "/css/aos/aos.css",
+    "/js/aos/aos.js": "/js/aos/aos.js",
+    "/css/lightbox/css/lightbox.min.css": "/css/lightbox/css/lightbox.min.css",
+    "/js/lightbox/lightbox.min.js": "/js/lightbox/lightbox.min.js"
 }
