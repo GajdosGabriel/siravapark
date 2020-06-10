@@ -29,15 +29,15 @@
 
         <div class="row">
             <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/1.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/1.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+                <a href="{{ asset('images/location/1.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/1.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20 rounded-md" alt="" data-aos="zoom-in"></a>
             </div>
 
             <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/3.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/3.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+                <a href="{{ asset('images/location/3.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/3.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20 rounded-md" alt="" data-aos="zoom-in"></a>
             </div>
 
             <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/2.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/2.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+                <a href="{{ asset('images/location/2.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/2.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20 rounded-md" alt="" data-aos="zoom-in"></a>
             </div>
         </div>
 
@@ -45,82 +45,82 @@
 
         <p>@lang('location.4')</p>
 
-        <img src="{{ asset('images/location/loc.jpg') }}" class="img-fluid d-block w-100" alt="">
+        <img src="{{ asset('images/location/loc.jpg') }}" class="img-fluid d-block w-100 rounded-md" alt="">
 
 
-        <h3 class="text-center col_blue xs-mt-20 lg-mt-50">@lang('boulevard.things2')</h3>
+        <h3 class="text-center text-2xl mt-8 text-blue-700">@lang('boulevard.things2')</h3>
 
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/4.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 mb-8 mt-4">
+            <div class="">
+                <a href="{{ asset('images/location/4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/4.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/5.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/5.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/5.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/5.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/6.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/6.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/6.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/6.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/7.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/7.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/7.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/7.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/11.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/11.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/11.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/11.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/9.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/9.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/9.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/9.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/10.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/10.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/10.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/10.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/8.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/8.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/8.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/8.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/12.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/12.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/12.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/12.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/features/oko/2.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/2.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/features/oko/2.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/2.jpg') }}" class="ounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/features/oko/3.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/3.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/features/oko/3.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/3.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/features/oko/4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/4.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/features/oko/4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/4.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/features/oko/5.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/5.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/features/oko/5.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/5.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/features/oko/6.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/6.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/features/oko/6.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/6.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/features/oko/7.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/7.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/features/oko/7.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/features/oko/sm/7.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/13.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/13.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/13.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/13.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/14.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/14.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/14.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/14.jpg') }}" class="rounded-md" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/location/15.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/15.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/location/15.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/location/sm/15.jpg') }}" class="rounded-md" alt=""></a>
             </div>
         </div>
 

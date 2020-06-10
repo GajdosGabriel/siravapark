@@ -1,6 +1,6 @@
 <div class="top text-center" data-aos="fade-right">
     @include('includes/langs')
-    <img class="" style="height: 30vh" src="{{ asset('images/sirava-park-logo.png') }}">
+    <img class="mx-auto" style="height: 30vh" src="{{ asset('images/sirava-park-logo.png') }}">
 
 </div>
 

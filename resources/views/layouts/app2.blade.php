@@ -25,8 +25,8 @@
 
 <body>
 
-{{--@include('includes/modals/holidayFormModal')--}}
-{{--@include('includes/modals/tacModal')--}}
+@include('includes/modals/holidayFormModal')
+@include('includes/modals/tacModal')
 
 @include('includes.modals.ppModal')
 

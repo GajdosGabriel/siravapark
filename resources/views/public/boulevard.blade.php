@@ -47,7 +47,7 @@
         </div>
 
         <div class="mt-3">
-        <a href="{{ asset('images/sp/4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/sp/4.jpg') }}" class="img-fluid d-block" alt=""></a>
+        <a href="{{ asset('images/sp/4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/sp/4.jpg') }}" class="img-fluid d-block rounded-md" alt=""></a>
         </div>
 
         {{--Panorama view--}}
@@ -65,119 +65,119 @@
     </div>
 
 
-    <div class="container xs-pb-20 lg-pb-50">
+    <div class="container mx-auto">
         {{--<h3 class="text-center col_blue xs-mt-20">Šírava Park Boulevard</h3>--}}
 
-        <div class="row">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 my-8">
 
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v2.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v2.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v2.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v3.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v3.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v3.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v4.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v4.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v4.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v5.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v5.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v5.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v6.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v6.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v6.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v7.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v7.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v7.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v8.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v8.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v8.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v9.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v9.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v9.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v10.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v10.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v10.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v11.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v11.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v11.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v12.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v12.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v12.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v13.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v13.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v13.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v14.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v14.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v14.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v16.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v16.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v16.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v17.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v17.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v17.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v18.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v18.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v18.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v19.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v19.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v19.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="">
                 <a href="{{ asset('images/boulevard/v20.jpg') }}" target="_blank" data-lightbox="photos">
-                    <img src="{{ asset('images/boulevard/sm/v20.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="">
+                    <img src="{{ asset('images/boulevard/sm/v20.jpg') }}" class="rounded-sm" alt="">
                 </a>
             </div>
 
