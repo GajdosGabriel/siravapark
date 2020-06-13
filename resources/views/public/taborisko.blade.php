@@ -45,39 +45,39 @@
         </header>
     </div>
 
-    <div class="container xs-pt-20 xs-pb-20 lg-pb-50">
+    <div class="container mx-auto py-6">
         <p>@lang('public/taborisko.text1')</p>
 
         {{--<p class="d-none d-md-block">@lang('location.2')</p>--}}
 
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko1.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko1.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 my-8">
+            <div>
+                <a href="{{ asset('images/taborisko/taborisko1.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko1.jpg') }}" class="rounded-sm w-full" alt="" data-aos="zoom-in"></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko2.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko2.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+            <div>
+                <a href="{{ asset('images/taborisko/taborisko2.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko2.jpg') }}" class="rounded-sm w-full" alt="" data-aos="zoom-in"></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko3.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko3.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+            <div>
+                <a href="{{ asset('images/taborisko/taborisko3.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko3.jpg') }}" class="rounded-sm w-full" alt="" data-aos="zoom-in"></a>
             </div>
 
         </div>
 
         <p class="xs-mt-20">@lang('public/taborisko.text2')</p>
 
-        <div class="row mb-4">
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko24.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko24.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 my-8">
+            <div class="overflow-hidden" >
+                <a href="{{ asset('images/taborisko/taborisko24.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko24.jpg') }}" class="rounded-sm w-full"  alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko25.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko25.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="overflow-hidden">
+                <a href="{{ asset('images/taborisko/taborisko25.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko25.jpg') }}" class="rounded-sm w-full" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko26.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko26.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="overflow-hidden">
+                <a href="{{ asset('images/taborisko/taborisko26.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko26.jpg') }}" class="rounded-sm w-full" alt=""></a>
             </div>
 
         </div>
@@ -85,71 +85,71 @@
         <p>@lang('public/taborisko.text3')</p>
 
         <div class="embed-responsive embed-responsive-16by9 d-print-none">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hsRUorYDe0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GKdIIA31W_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <p class="mt-4">@lang('public/taborisko.text4')</p>
 
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko4.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 my-8">
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko4.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko4.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko5.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko5.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko5.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko5.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko6.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko6.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko6.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko6.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
 
         </div>
 
 
-        <h3 class="mt-4">@lang('public/taborisko.activity3')</h3>
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko16.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko16.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+        <h3 class="mt-4 font-semibold text-lg uppercase tracking-wider">@lang('public/taborisko.activity3')</h3>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 mt-6">
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko16.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko16.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko17.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko17.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko17.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko17.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko18.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko18.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
-            </div>
-        </div>
-
-        <h3 class="mt-4">@lang('public/taborisko.activity1')</h3>
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko22.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko22.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
-            </div>
-
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko23.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko23.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
-            </div>
-
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko12.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko12.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko18.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko18.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
         </div>
 
-
-
-        <h3 class="mt-4">@lang('public/taborisko.activity2')</h3>
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko13.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko13.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+        <h3 class="mt-4 font-semibold text-lg uppercase tracking-wider">@lang('public/taborisko.activity1')</h3>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 mt-6">
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko22.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko22.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko14.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko14.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko23.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko23.jpg') }}" class="rounded-sm" alt=""></a>
             </div>
 
-            <div class="col-12 col-lg-4">
-                <a href="{{ asset('images/taborisko/taborisko15.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko15.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt="" data-aos="zoom-in"></a>
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko12.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko12.jpg') }}" class="rounded-sm" alt=""></a>
+            </div>
+        </div>
+
+
+
+        <h3 class="mt-4 font-semibold text-lg uppercase tracking-wider">@lang('public/taborisko.activity2')</h3>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 mt-6 mb-8">
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko13.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko13.jpg') }}" class="rounded-sm" alt="" data-aos="zoom-in"></a>
+            </div>
+
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko14.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko14.jpg') }}" class="rounded-sm" alt="" data-aos="zoom-in"></a>
+            </div>
+
+            <div class="">
+                <a href="{{ asset('images/taborisko/taborisko15.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko15.jpg') }}" class="rounded-sm" alt="" data-aos="zoom-in"></a>
             </div>
 
         </div>
@@ -162,7 +162,7 @@
 {{--        </div>--}}
 
         {{--  Site plan   --}}
-        <a href="{{ asset('images/taborisko/siteplan_camping_'. App::getLocale() .'.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/siteplan_camping_'. App::getLocale() .'.jpg') }}" class="img-fluid d-block mx-auto xs-mt-20" alt=""></a>
+        <a href="{{ asset('images/taborisko/siteplan_camping_'. App::getLocale() .'.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/siteplan_camping_'. App::getLocale() .'.jpg') }}" class="rounded-sm" alt=""></a>
 
 
         <div class="text-center mt-4">

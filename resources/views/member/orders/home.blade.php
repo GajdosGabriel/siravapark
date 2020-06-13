@@ -1,4 +1,4 @@
-@extends('member/_order')
+@extends('layouts.app2')
 
 @section('title', env('APP_NAME') . ' :: Order area - Order')
 

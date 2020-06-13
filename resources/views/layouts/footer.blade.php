@@ -37,11 +37,6 @@
                     <img style="max-width: 80%" src="{{ asset('images/official-partners/eventservice.png') }}"
                          class="img-fluid"></img>
                 </div>
-
-                <div class="">
-                    <img style="max-width: 80%" src="{{ asset('images/official-partners/weckoservis.png') }}"
-                         class="img-fluid"></img>
-                </div>
             </div>
         </div>
     </div>

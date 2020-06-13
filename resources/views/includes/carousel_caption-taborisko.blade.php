@@ -5,7 +5,7 @@
 
 <div class="bottom" data-aos="fade-left">
     <div>
-        <a href="" class="btn btn-white" data-toggle="modal" data-target="#holidayFormModal22">@lang('index.free')</a>
+        <a href="" class="btn btn-white rounded-sm text-blue-700" data-toggle="modal" data-target="#holidayFormModal22">@lang('index.free')</a>
     </div>
 
     <div id="soc" class="row">

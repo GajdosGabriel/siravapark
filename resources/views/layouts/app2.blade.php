@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
     <link rel="shortcut icon" type="image/png" href="{{ asset('images/favicon.png') }}">
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+{{--    <link rel="stylesheet" href="{{ mix('css/app.css') }}">--}}
     <link rel="stylesheet" href="{{ asset('css/b4helper.css') }}">
-{{--    <link rel="stylesheet" href="{{ mix('css/fontawesome/css/all.min.css') }}">--}}
+{{--    <link rel="stylesheet" href="{{ asset('css/fontawesome/css/all.min.css') }}">--}}
     <link rel="stylesheet" href="{{ mix('css/aos/aos.css') }}">
     <link rel="stylesheet" href="{{ mix('css/lightbox/css/lightbox.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/xs.css') }}">
@@ -16,6 +19,7 @@
     <link rel="stylesheet" href="{{ asset('css/xl.css') }}" media="(min-width:1200px)">
     <link rel="stylesheet" href="{{ mix('css/tailwind.css') }}">
 {{--    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">--}}
+
     @yield('addCSS')
     <title>@yield('title', 'Šírava Park')</title>
 
@@ -54,6 +58,18 @@
 <script type="text/javascript" src="{{ mix('js/aos/aos.js') }}"></script>
 <script type="text/javascript" src="{{ mix('js/main.js') }}"></script>
 <script type="text/javascript" src="{{ mix('js/lightbox/lightbox.min.js') }}"></script>
+
+
+{{--@if(Session::has('modal'))--}}
+{{--    <script type="text/javascript">--}}
+{{--        $('{!! '#' . Session::get('modal') . 'Modal' !!}').modal();--}}
+{{--    </script>--}}
+
+{{--    @php--}}
+{{--        Session::forget('modal');--}}
+{{--    @endphp--}}
+{{--@endif--}}
+
 
 
 @include('includes.codes.google_analytics')
