@@ -28,7 +28,7 @@
                         <img src="{{ asset('images/taborisko/cover.png') }}" style="width: 100%" class="img-fluid d-none d-lg-block mx-auto" alt="">
 
                         <div class="carousel-caption">
-                            @include('includes/carousel_caption-taborisko')
+                            @include('public.carousel.carousel_caption-taborisko')
                         </div>
                     </div>
                 </div>

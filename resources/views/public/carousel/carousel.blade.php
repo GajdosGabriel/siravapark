@@ -7,9 +7,8 @@
                 <img class="d-block d-md-none w-100" src="{{ asset('images/carousel/1sm.jpg') }}" alt="">
                 <img class="d-none d-md-block w-100" src="{{ asset('images/carousel/1.jpg') }}" alt="">
 
-                <div class="carousel-caption">
-                    @include('includes/carousel_caption')
-                </div>
+                @include('public.carousel.carousel_caption')
+
             </div>
 
             {{--Slide 2--}}
@@ -17,9 +16,8 @@
                 <img class="d-block d-md-none w-100" src="{{ asset('images/carousel/2sm.jpg') }}" alt="">
                 <img class="d-none d-md-block w-100" src="{{ asset('images/carousel/2.jpg') }}" alt="">
 
-                <div class="carousel-caption">
-                    @include('includes/carousel_caption')
-                </div>
+                @include('public.carousel.carousel_caption')
+
             </div>
         </div>
 

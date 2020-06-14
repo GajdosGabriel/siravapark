@@ -10,14 +10,17 @@
             <div class="md:w-full">
                 <div class="flex items-center justify-between">
                     <h2 class="text-lg font-semibold">Order form</h2>
-                    <button @click="isOpen =! isOpen" class="bg-blue-600 text-white py-2 px-5 mt-4 font-semibold  rounded shadow-md hover:bg-blue-400">Add</button>
+                    <button @click="isOpen =! isOpen"
+                            class="bg-blue-600 text-white py-2 px-5 mt-4 font-semibold rounded shadow-md hover:bg-blue-400">
+                        Add
+                    </button>
                 </div>
                 <transition name="slide">
-                <form v-show="isOpen" action="{{ route('order.store') }}" method="POST">
-                    @csrf
-                    @include('member.orders._form')
-                </form>
-                    </transition>
+                    <form v-show="isOpen" action="{{ route('order.store') }}" method="POST">
+                        @csrf
+                        @include('member.orders._form')
+                    </form>
+                </transition>
             </div>
         </order-form>
 
@@ -37,16 +40,16 @@
                 <tbody>
 
                 @forelse($orders as $order)
-                <tr class="hover:bg-gray-100">
-                    <td class="border px-4 py-2">{{ $order->full_name }}</td>
-                    <td class="border px-4 py-2">{{ $order->email }}</td>
-                    <td class="border px-4 py-2">{{ $order->phone }}</td>
-                    <td class="border px-4 py-2">{{ $order->adult }}</td>
-                    <td class="border px-4 py-2">{{ $order->child }}</td>
-                    <td class="border px-4 py-2">{{ $order->days }}</td>
-                    <td class="border px-4 py-2">...</td>
-                </tr>
-                    @empty
+                    <tr class="hover:bg-gray-100">
+                        <td class="border px-4 py-2">{{ $order->full_name }}</td>
+                        <td class="border px-4 py-2">{{ $order->email }}</td>
+                        <td class="border px-4 py-2">{{ $order->phone }}</td>
+                        <td class="border px-4 py-2">{{ $order->adult }}</td>
+                        <td class="border px-4 py-2">{{ $order->child }}</td>
+                        <td class="border px-4 py-2">{{ $order->days }}</td>
+                        <td class="border px-4 py-2">...</td>
+                    </tr>
+                @empty
 
                 @endforelse
 
