@@ -1,11 +1,17 @@
 
 
 <script>
+    import {bus} from '../app';
     export default {
         data: function () {
             return {
              isOpen: false
             }
+        },
+        created() {
+            bus.$on('form', (data) => {
+                this.isOpen = data
+            })
         }
     }
 </script>

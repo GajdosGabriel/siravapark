@@ -8,13 +8,15 @@ use Illuminate\Http\Request;
 class OrderController extends Controller
 {
     public function home() {
-       $orders = Order::latest()->paginate();
-        return view('member.orders.home', compact('orders'));
+        return view('member.orders.home');
     }
 
+    public function index() {
+        return Order::latest()->paginate(8);
+    }
 
     public function store(Request $request) {
         Order::create($request->all());
-        return back();
+        return Order::latest()->get() ;
     }
 }

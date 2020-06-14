@@ -20,6 +20,10 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('order-form', require('./components/OrderForm.vue').default);
+Vue.component('navigation-right', require('./components/Navigation-right.vue').default);
+Vue.component('order-table', require('./components/Order-table.vue').default);
+
+export const bus = new Vue();
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
