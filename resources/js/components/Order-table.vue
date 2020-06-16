@@ -1,5 +1,10 @@
 <template>
     <div>
+        <div class="my-5 text-center">
+            <input class="w-1/3 px-4 py-2 text-sm text-gray-700 rounded-md" placeholder="Search by name"
+                   v-model="search">
+            <!--            <button @click="clearForm" class="px-2 py-1 border-2 border-gray-300 rounded-sm ">Clear</button>-->
+        </div>
         <table class="border-2 border-gray-500 table-auto">
             <thead class="bg-gray-600">
             <tr>
@@ -8,8 +13,7 @@
                 <th class="w-full px-4 py-2">Phone</th>
                 <th class="w-full px-4 py-2 whitespace-no-wrap">People 6+</th>
                 <th class="w-full px-4 py-2 whitespace-no-wrap">People 6-</th>
-                <th class="w-full px-4 py-2 w-24">Days</th>
-                <!--            <th class="px-4 py-2 cursor-pointer">New</th>-->
+                <th class="w-24 w-full px-4 py-2">Days</th>
                 <th class="w-full px-4 py-2 cursor-pointer" @click="formOpen =! formOpen">Add</th>
             </tr>
             </thead>
@@ -35,7 +39,7 @@
                            placeholder="Number of people ...">
                 </td>
                 <td class="border">
-                    <input type="number" class="w-full pl-3 pr-2 py-2 text-sm " v-model="days" placeholder="Days ..."
+                    <input type="number" class="w-full py-2 pl-3 pr-2 text-sm" v-model="days" placeholder="Days ..."
                            required>
                 </td>
                 <td class="px-4 py-2 text-sm text-white bg-blue-600 cursor-pointer" @click="store">
@@ -60,7 +64,7 @@
 
         <div class="flex justify-center my-10 space-x-3">
             <button @click="fetchPaginate(pagination.prev_page_url)"
-                    class="flex items-center justify-center h-8 p-3 font-semibold bg-gray-600 border-2 border-black rounded-sm cursor-pointer "
+                    class="flex items-center justify-center h-8 p-3 font-semibold bg-gray-600 border-2 border-black rounded-sm cursor-pointer"
                     :disabled="! pagination.prev_page_url"> <<
             </button>
             <div
@@ -86,21 +90,45 @@
                 orders: [],
                 pagination: [],
                 formOpen: false,
+                search: '',
+                searching: false,
                 full_name: '',
                 email: '',
                 phone: '',
                 adult: '',
                 child: '',
                 days: '',
-                url: '/order/index'
+                url: '/order/index',
+                urlSearch: '/order/search/',
+                results: []
             }
         },
 
         created() {
             this.getOrder();
         },
-
+        watch: {
+            search: function (val) {
+                this.tableSearch();
+            }
+        },
         methods: {
+            tableSearch: function () {
+                this.searching = true;
+                if (!this.search.length > 0) {
+                    this.getOrder()
+                }
+
+                axios.get(this.urlSearch + this.search)
+                    .then(response => {
+                        this.orders = response.data.data
+                    })
+
+            },
+            // clearForm: function(){
+            //     this.search = '';
+            //     this.getOrder();
+            // },
             getOrder: function () {
                 let $this = this
                 axios.get(this.url)
@@ -122,6 +150,7 @@
                     .then(response => (this.orders = response.data));
 
                 this.formOpen = false;
+                this.getOrder();
 
             },
             makePagination: function (data) {

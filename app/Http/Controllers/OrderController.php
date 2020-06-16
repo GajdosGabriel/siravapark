@@ -15,8 +15,12 @@ class OrderController extends Controller
         return Order::latest()->paginate(8);
     }
 
+    public function search($search) {
+        return Order::where('full_name', 'like', '%'. $search .'%')->paginate(8);
+    }
+
+
     public function store(Request $request) {
-        Order::create($request->all());
-        return Order::latest()->get() ;
+      return Order::create($request->all());
     }
 }

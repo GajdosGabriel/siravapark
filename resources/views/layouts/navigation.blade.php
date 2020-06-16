@@ -56,7 +56,7 @@
                     {{--</li>--}}
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('taborisko') }}">TÁBORISKO</a>
+                        <a class="nav-link" href="{{ route('taborisko') }}">@lang('public/taborisko.title')</a>
                     </li>
 
                     <li class="nav-item">

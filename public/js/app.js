@@ -2019,37 +2019,67 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       orders: [],
       pagination: [],
       formOpen: false,
+      search: '',
+      searching: false,
       full_name: '',
       email: '',
       phone: '',
       adult: '',
       child: '',
       days: '',
-      url: '/order/index'
+      url: '/order/index',
+      urlSearch: '/order/search/',
+      results: []
     };
   },
   created: function created() {
     this.getOrder();
   },
+  watch: {
+    search: function search(val) {
+      this.tableSearch();
+    }
+  },
   methods: {
-    getOrder: function getOrder() {
+    tableSearch: function tableSearch() {
       var _this = this;
+
+      this.searching = true;
+
+      if (!this.search.length > 0) {
+        this.getOrder();
+      }
+
+      axios.get(this.urlSearch + this.search).then(function (response) {
+        _this.orders = response.data.data;
+      });
+    },
+    // clearForm: function(){
+    //     this.search = '';
+    //     this.getOrder();
+    // },
+    getOrder: function getOrder() {
+      var _this2 = this;
 
       var $this = this;
       axios.get(this.url).then(function (response) {
-        _this.orders = response.data.data;
+        _this2.orders = response.data.data;
 
-        _this.makePagination(response.data);
+        _this2.makePagination(response.data);
       });
     },
     store: function store() {
-      var _this2 = this;
+      var _this3 = this;
 
       axios.post('/order/store', {
         full_name: this.full_name,
@@ -2059,9 +2089,10 @@ __webpack_require__.r(__webpack_exports__);
         child: this.child,
         days: this.days
       }).then(function (response) {
-        return _this2.orders = response.data;
+        return _this3.orders = response.data;
       });
       this.formOpen = false;
+      this.getOrder();
     },
     makePagination: function makePagination(data) {
       var pagination = {
@@ -38340,6 +38371,30 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
+    _c("div", { staticClass: "my-5 text-center" }, [
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.search,
+            expression: "search"
+          }
+        ],
+        staticClass: "w-1/3 rounded-md px-4 py-2 text-sm text-gray-700",
+        attrs: { placeholder: "Search by name" },
+        domProps: { value: _vm.search },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.search = $event.target.value
+          }
+        }
+      })
+    ]),
+    _vm._v(" "),
     _c("table", { staticClass: "border-2 border-gray-500 table-auto" }, [
       _c("thead", { staticClass: "bg-gray-600" }, [
         _c("tr", [

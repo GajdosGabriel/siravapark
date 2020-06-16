@@ -2,7 +2,7 @@
 
 return [
 
-    'title' => 'CAMPING',
+    'title' => 'PARTY BEACH',
     'price_list' => 'Price list',
     'check_availability' => 'Check availability',
     'text1' => 'Šírava Park - TÁBORISKO 2020 at the Zemplínska Šírava reservoir. Throughout the summer, families, parties and especially people who want to take a break from everyday stress within the permitted government regulations will find a place to relax.',

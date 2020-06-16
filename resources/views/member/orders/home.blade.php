@@ -8,13 +8,22 @@
 
     <div id="app" class="flex min-h-screen bg-gray-700 text-white">
 
-        <div class="w-48 mr-12 p-6 bg-gray-800 border-r-2 border-gray-600">
+
+        <div class="w-48 p-6 bg-gray-800 border-r-2 border-gray-600">
 
             <navigation-right></navigation-right>
 
         </div>
 
         <div class="container py-5">
+
+
+{{--            <div class="my-5 text-center">--}}
+{{--                <input class="w-1/3 rounded-md px-4 py-2 text-sm" @click="search" v-model="search">--}}
+{{--                <button type="submit">Search</button>--}}
+{{--            </div>--}}
+
+
             <order-table/>
         </div>
 

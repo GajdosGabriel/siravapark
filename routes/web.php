@@ -93,6 +93,7 @@ Route::name('order.')->prefix('/order')->group(function() {
     Route::get('/home', 'OrderController@home')->name('home');
     Route::get('/index', 'OrderController@index');
     Route::post('/store', 'OrderController@store')->name('store');
+    Route::get('/search/{search}', 'OrderController@search');
 
 });
 

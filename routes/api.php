@@ -24,3 +24,4 @@ Route::get('/glamping', 'APIController@glamping');
 Route::get('/leadsBoulevard', 'APIController@leadsBoulevard');
 Route::get('/sign-ups', 'APIController@sign_ups');
 
+
