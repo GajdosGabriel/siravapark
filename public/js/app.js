@@ -2019,11 +2019,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -38345,57 +38340,38 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "flex justify-between" }, [
-      _c(
-        "a",
-        {
-          staticClass: "cursor-pointer",
-          on: {
-            click: function($event) {
-              _vm.formOpen = !_vm.formOpen
-            }
-          }
-        },
-        [_c("span", { staticClass: " hover:text-green-400" }, [_vm._v("Add")])]
-      ),
-      _vm._v(" "),
-      _c("a", { staticClass: "cursor-pointer", on: { click: _vm.store } }, [
-        _c("span", { staticClass: " hover:text-green-400" }, [_vm._v("Save")])
-      ])
-    ]),
-    _vm._v(" "),
     _c("table", { staticClass: "border-2 border-gray-500 table-auto" }, [
       _c("thead", { staticClass: "bg-gray-600" }, [
         _c("tr", [
-          _c("th", { staticClass: "px-4 py-2 whitespace-no-wrap" }, [
+          _c("th", { staticClass: "w-full px-4 py-2 whitespace-no-wrap" }, [
             _vm._v("Full name")
           ]),
           _vm._v(" "),
-          _c("th", { staticClass: "px-4 py-2" }, [_vm._v("Email")]),
+          _c("th", { staticClass: "w-full px-4 py-2" }, [_vm._v("Email")]),
           _vm._v(" "),
-          _c("th", { staticClass: "px-4 py-2" }, [_vm._v("Phone")]),
+          _c("th", { staticClass: "w-full px-4 py-2" }, [_vm._v("Phone")]),
           _vm._v(" "),
-          _c("th", { staticClass: "px-4 py-2 whitespace-no-wrap" }, [
+          _c("th", { staticClass: "w-full px-4 py-2 whitespace-no-wrap" }, [
             _vm._v("People 6+")
           ]),
           _vm._v(" "),
-          _c("th", { staticClass: "px-4 py-2 whitespace-no-wrap" }, [
+          _c("th", { staticClass: "w-full px-4 py-2 whitespace-no-wrap" }, [
             _vm._v("People 6-")
           ]),
           _vm._v(" "),
-          _c("th", { staticClass: "px-4 py-2" }, [_vm._v("Days")]),
+          _c("th", { staticClass: "w-full px-4 py-2 w-24" }, [_vm._v("Days")]),
           _vm._v(" "),
           _c(
             "th",
             {
-              staticClass: "px-4 py-2 cursor-pointer",
+              staticClass: "w-full px-4 py-2 cursor-pointer",
               on: {
                 click: function($event) {
                   _vm.formOpen = !_vm.formOpen
                 }
               }
             },
-            [_vm._v("New")]
+            [_vm._v("Add")]
           )
         ])
       ]),
@@ -38549,7 +38525,7 @@ var render = function() {
                         expression: "days"
                       }
                     ],
-                    staticClass: "w-full px-4 py-2 text-sm",
+                    staticClass: "w-full pl-3 pr-2 py-2 text-sm ",
                     attrs: {
                       type: "number",
                       placeholder: "Days ...",
@@ -38571,7 +38547,7 @@ var render = function() {
                   "td",
                   {
                     staticClass:
-                      "w-full px-4 py-2 text-sm text-white bg-blue-600 cursor-pointer",
+                      "px-4 py-2 text-sm text-white bg-blue-600 cursor-pointer",
                     on: { click: _vm.store }
                   },
                   [_vm._v("\n                Save\n            ")]

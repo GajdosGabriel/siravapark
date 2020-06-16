@@ -1,21 +1,16 @@
 <template>
     <div>
-        <div class="flex justify-between">
-        <a class="cursor-pointer" @click="formOpen =! formOpen"><span class=" hover:text-green-400">Add</span></a>
-        <a class="cursor-pointer" @click="store"><span class=" hover:text-green-400">Save</span></a>
-        </div>
-
         <table class="border-2 border-gray-500 table-auto">
             <thead class="bg-gray-600">
             <tr>
-                <th class="px-4 py-2 whitespace-no-wrap">Full name</th>
-                <th class="px-4 py-2">Email</th>
-                <th class="px-4 py-2">Phone</th>
-                <th class="px-4 py-2 whitespace-no-wrap">People 6+</th>
-                <th class="px-4 py-2 whitespace-no-wrap">People 6-</th>
-                <th class="px-4 py-2">Days</th>
+                <th class="w-full px-4 py-2 whitespace-no-wrap">Full name</th>
+                <th class="w-full px-4 py-2">Email</th>
+                <th class="w-full px-4 py-2">Phone</th>
+                <th class="w-full px-4 py-2 whitespace-no-wrap">People 6+</th>
+                <th class="w-full px-4 py-2 whitespace-no-wrap">People 6-</th>
+                <th class="w-full px-4 py-2 w-24">Days</th>
                 <!--            <th class="px-4 py-2 cursor-pointer">New</th>-->
-                <th class="px-4 py-2 cursor-pointer" @click="formOpen =! formOpen">New</th>
+                <th class="w-full px-4 py-2 cursor-pointer" @click="formOpen =! formOpen">Add</th>
             </tr>
             </thead>
             <tbody>
@@ -40,10 +35,10 @@
                            placeholder="Number of people ...">
                 </td>
                 <td class="border">
-                    <input type="number" class="w-full px-4 py-2 text-sm" v-model="days" placeholder="Days ..."
+                    <input type="number" class="w-full pl-3 pr-2 py-2 text-sm " v-model="days" placeholder="Days ..."
                            required>
                 </td>
-                <td class="w-full px-4 py-2 text-sm text-white bg-blue-600 cursor-pointer" @click="store">
+                <td class="px-4 py-2 text-sm text-white bg-blue-600 cursor-pointer" @click="store">
                     Save
                 </td>
             </tr>
