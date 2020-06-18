@@ -97,4 +97,13 @@ Route::name('order.')->prefix('/order')->group(function() {
 
 });
 
+
+// Leads area
+Route::name('lead.')->prefix('/lead')->group(function() {
+    Route::get('/home', 'LeadController@home')->name('home');
+    Route::get('/index', 'LeadController@index');
+    Route::post('/store', 'LeadController@store')->name('store');
+    Route::get('/search/{search}', 'LeadController@search');
+});
+
 Auth::routes();

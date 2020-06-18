@@ -1,6 +1,6 @@
 @extends('layouts.app2')
 
-@section('title', env('APP_NAME') . ' :: Order area - Order')
+@section('title', env('APP_NAME') . ' :: Lead area - Lead')
 
 @section('content')
 
@@ -11,8 +11,10 @@
 
         @include('member.navigation-vertical')
 
-        <div class="text-center p-5">
-            <order-table/>
+        <div class="container py-5">
+
+            <lead-table></lead-table>
+
         </div>
 
 

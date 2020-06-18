@@ -21,6 +21,8 @@ class CreateOrdersTable extends Migration
             $table->integer('adult')->nullable();
             $table->integer('child')->nullable();
             $table->integer('days')->nullable();
+            $table->dateTime('start_at')->nullable();
+            $table->dateTime('end_at')->nullable();
             $table->timestamps();
         });
     }

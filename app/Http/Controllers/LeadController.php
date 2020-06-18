@@ -2,28 +2,28 @@
 
 namespace App\Http\Controllers;
 
-use App\Order;
+use App\Lead;
 use Illuminate\Http\Request;
 
-class OrderController extends Controller
+class LeadController extends Controller
 {
     public function home() {
-        return view('member.orders.home');
+        return view('member.leads.home');
     }
 
     public function index() {
-        return Order::latest()->paginate(10);
+        return Lead::latest()->paginate(15);
     }
+
 
     public function search($search) {
-        return Order::where('full_name', 'like', '%'. $search .'%')
+        return Lead::where('name', 'like', '%'. $search .'%')
             ->orWhere('phone', 'like', '%' . $search . '%')
             ->orWhere('email', 'like', '%' . $search . '%')
-            ->paginate(10);
+            ->paginate(15);
     }
 
-
     public function store(Request $request) {
-      return Order::create($request->all());
+        return Lead::create($request->all());
     }
 }

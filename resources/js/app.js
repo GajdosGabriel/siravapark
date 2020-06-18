@@ -19,9 +19,12 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
+
+
+
 Vue.component('order-form', require('./components/OrderForm.vue').default);
-Vue.component('navigation-right', require('./components/Navigation-right.vue').default);
 Vue.component('order-table', require('./components/Order-table.vue').default);
+Vue.component('lead-table', require('./components/Leads.vue').default);
 
 export const bus = new Vue();
 
