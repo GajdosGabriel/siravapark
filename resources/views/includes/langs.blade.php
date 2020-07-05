@@ -1,6 +1,6 @@
 <div class="langs" style="z-index: 999">
     <div class="dropdown">
-        <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        <button class="btn btn-link dropdown-toggle rounded-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-globe-europe"></i> @lang('index.lang')
         </button>

@@ -28,7 +28,7 @@ return [
     'text61' => 'Klient je povinný ubytovať sa na recepcii pri vstupe do areálu v čase <strong> od 12:00 do 22:00</strong>',
 
     'title7' => 'Podmienky pri odubytovaní sa:',
-    'text71' => 'Klient je povinný odubytovať sa na recepcii pri vstupe do areálu v čase <strong> od 7:00 do 11:00</strong>.',
+    'text71' => 'Klient je povinný odubytovať sa na recepcii pri vstupe do areálu v čase <strong> od 8:00 do 11:00</strong>.',
     'text72' => 'V deň odchodu je potrebné opustiť areál do <strong> 11.00 hod.</strong>',
 
     'title8' => 'Predĺženie rezervácie:',

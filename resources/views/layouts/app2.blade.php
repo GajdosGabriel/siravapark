@@ -9,7 +9,7 @@
 
 {{--    <link rel="stylesheet" href="{{ mix('css/app.css') }}">--}}
     <link rel="stylesheet" href="{{ asset('css/b4helper.css') }}">
-{{--    <link rel="stylesheet" href="{{ asset('css/fontawesome/css/all.min.css') }}">--}}
+    <link rel="stylesheet" href="{{ asset('css/fontawesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ mix('css/aos/aos.css') }}">
     <link rel="stylesheet" href="{{ mix('css/lightbox/css/lightbox.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/xs.css') }}">
@@ -83,5 +83,6 @@
 @include('includes.codes.chat')
 
 @yield('addJS')
+
 </body>
 </html>

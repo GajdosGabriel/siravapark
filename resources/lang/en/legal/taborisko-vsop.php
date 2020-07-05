@@ -28,7 +28,7 @@ return [
     'text61' => 'The Client is obliged to check-in at the reception near complex entrance <strong> from 12:00 to 22:00.</strong>',
 
     'title7' => 'Check-out conditions:',
-    'text71' => 'The Client is obliged to check-out at the reception near complex entrance <strong> from od 7:00 do 11:00</strong>.',
+    'text71' => 'The Client is obliged to check-out at the reception near complex entrance <strong> from od 8:00 do 11:00</strong>.',
     'text72' => 'On the day of departure, it is necessary to leave the complex by 11:00.',
 
     'title8' => 'Reservation extension:',

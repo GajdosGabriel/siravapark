@@ -37,4 +37,8 @@ return [
     'activity1' => 'Vodné športy',
     'activity2' => 'Krásy prírody',
     'activity3' => 'Spoločenské akcie',
+
+    'covid-title' => 'POZOR',
+    'covid-text1' => 'Z dôvodu oneskorenia povolení a COVID-19 sme tento rok neboli schopní začať s výstavbou nášho projektu Šírava Park - Boulevard & Glamping. Vedenie parku Šírava, partneri a investori sa rozhodli toto leto ponúknuť verejnosti alternatívny, jednorazový projekt Táborisko a plážový bar / bufet na pozemku v Paľkove. Toto Táborisko, Bar & Buffet nie je možné porovnávať s vizualizáciami a pôvodnými plánmi budúceho projektu Šírava Park - Boulevard & Glamping.',
+    'covid-text2' => 'Dúfame, že toto leto nás niekto navštívi a užije si naše alternatívne dočasné služby, ktoré sme pre vás vytvorili túto sezónu a že budúci rok vám budeme môcť ponúknuť pôvodný plán parku Šírava - Boulevard & Glamping ako v našich vizualizáciách.',
 ];

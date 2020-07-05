@@ -4,7 +4,7 @@ return [
     'link_button' => 'ČASTÉ OTÁZKY',
 
     'title1' => 'FAQs – ČASTO KLADENÉ OTÁZKY',
-    'text1' => '1.	1.	KDE NÁJDETE ŠÍRAVA PARK – TÁBORISKO 2020?',
+    'text1' => '1. KDE NÁJDETE ŠÍRAVA PARK – TÁBORISKO 2020?',
     'text12' => 'Šírava Park – Táborisko 2020 sa nachádza v extraviláne obce Klokočov, konkrétne časť Pod Paľkovom na brehu vodnej nádrže Zemplínska Šírava.',
 
     'title2' => '2.	AKÚ MÁ VAŠE TÁBORISKO KAPACITU? PRE KOHO JE URČENÝ?',
@@ -15,7 +15,7 @@ return [
 
 
     'title4' => '4.	PONÚKATE NA PRENÁJOM AJ STANY/KARAVANY?',
-    'text41' => 'Nie, neponúkame. V našom táborisku ponúkame len priestor na utáborenie sa. Návštevník si musí zabezpečiť stan/karavan sám.',
+    'text41' => 'Áno, ponúkame 2 typy malých stanov na krátkodobý prenájom (pre 2 a pre 3 osoby). Ich počet je však obmedzený...',
 
 
     'title5' => '5.	MÁTE PRESNE URČENÝ ČAS PRE CHECK-IN A CHECK-OUT?',

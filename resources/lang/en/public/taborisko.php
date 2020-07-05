@@ -37,4 +37,9 @@ return [
     'activity1' => 'Water Activities',
     'activity2' => 'Area Activities',
     'activity3' => 'Social Activities',
+
+    'covid-title' => 'ATTENTION',
+    'covid-text1' => 'Due to delay of permits and COVID-19 we were not in the position to start the construction of our project Šírava Park - Boulevard & Glamping this year. Šírava Park management, partners and investors have decided to offer the public this summer an alternative one-time Táborisko & Beach bar/buffet on the land in Paľkov. This Táborisko, Bar & Buffet you can\'t compare with the visualizations and original plans for the future project Šírava Park - Boulevard & Glamping.',
+    'covid-text2' => 'We hope that anybody will visit us this summer and enjoy our alternative temporary services we created for you this summer and that next year we can offer you the original plan of Šírava Park - Boulevard & Glamping as in our visualizations.',
+
 ];

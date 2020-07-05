@@ -16,22 +16,25 @@
                          class="img-fluid"></img>
                 </div>
 
+            </div>
+
+            <div class="flex">
+
+
                 <div class="">
                     <img style="max-width: 80%" src="{{ asset('images/official-partners/staropramen.png') }}"
                          class="img-fluid"></img>
                 </div>
-            </div>
-
-            <div class="flex">
+                
                 <div class="">
                     <img style="max-width: 80%" src="{{ asset('images/official-partners/julius-meinl.png') }}"
                          class="img-fluid"></img>
                 </div>
 
-                <div class="">
-                    <img style="max-width: 80%" src="{{ asset('images/official-partners/generali.png') }}"
-                         class="img-fluid"></img>
-                </div>
+{{--                <div class="">--}}
+{{--                    <img style="max-width: 80%" src="{{ asset('images/official-partners/generali.png') }}"--}}
+{{--                         class="img-fluid"></img>--}}
+{{--                </div>--}}
 
                 <div class="">
                     <img style="max-width: 80%" src="{{ asset('images/official-partners/eventservice.png') }}"

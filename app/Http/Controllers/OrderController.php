@@ -24,6 +24,13 @@ class OrderController extends Controller
 
 
     public function store(Request $request) {
+
+        $request->validate([
+            'full_name' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+        ]);
+
       return Order::create($request->all());
     }
 }

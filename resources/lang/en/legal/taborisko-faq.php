@@ -16,7 +16,7 @@ return [
 
 
     'title4' => '4.	DO YOU ALSO OFFER TENTS / CARAVANS FOR RENT?',
-    'text41' => 'No, we don\'t. In our camp we only offer space for camping. The visitor must arrange the tent / caravan himself.',
+    'text41' => 'Yes, we offer 2 types of small tents for short-term rent (for 2 and 3 people). However, their number is limited ...',
 
 
     'title5' => '5.	DO YOU HAVE A SPECIFIC TIME FOR CHECK-IN AND CHECK-OUT?',

@@ -11,8 +11,13 @@
 
         @include('member.navigation-vertical')
 
-        <div class="text-center p-5">
+        <div class=" p-5">
+{{--            <order-form/>--}}
+
+
+
             <order-table/>
+
         </div>
 
 

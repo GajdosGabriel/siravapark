@@ -7,23 +7,71 @@
                 <img src="{{ asset('images/logo_nav.png') }}" alt="">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
+                    aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarMain">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('public.home') }}">@lang('index.home')</a>
+                        <a class="nav-link" href="{{ route('public.home') }}">
+                            <span
+                                class=" @if(Route::currentRouteName() == 'public.home' ) underline text-blue-700 font-semibold @endif }}">
+                                @lang('index.home')
+                            </span>
+                        </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('beachClub') }}">@lang('boulevard.title')</a>
+
+                        <a class="nav-link" href="{{ route('beachClub') }}">
+                            <span
+                                class=" @if(Route::currentRouteName() == 'beachClub' ) underline text-blue-700 font-semibold @endif }}">
+                               @lang('boulevard.title')
+                            </span>
+                        </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('sirava-park') }}">Glamping</a>
+                        <a class="nav-link" href="{{ route('sirava-park') }}">
+                               <span
+                                   class=" @if(Route::currentRouteName() == 'sirava-park' ) underline text-blue-700 font-semibold @endif }}">
+                             Glamping
+                            </span>
+                        </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('taborisko') }}">
+                            <span
+                                class=" @if(Route::currentRouteName() == 'taborisko' ) underline text-blue-700 font-semibold @endif }}">
+                                @lang('public/taborisko.title')
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('location') }}">
+                                <span
+                                    class=" @if(Route::currentRouteName() == 'location' ) underline text-blue-700 font-semibold @endif }}">
+                                     @lang('index.location')
+                                </span>
+                        </a>
+                    </li>
+
+                    @auth()
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('order.home') }}">
+                                <span
+                                    class=" @if(Route::currentRouteName() == 'order.home' ) underline text-blue-700 font-semibold @endif }}">
+                                @lang('order.home')
+                                </span>
+                            </a>
+                        </li>
+                    @endauth
+
+
 
                     {{--
                     <li class="nav-item">
@@ -54,20 +102,6 @@
                     {{--<li class="nav-item">--}}
                     {{--<a class="nav-link" href="{{ route('spa') }}">@lang('index.spa')</a>--}}
                     {{--</li>--}}
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('taborisko') }}">@lang('public/taborisko.title')</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('location') }}">@lang('index.location')</a>
-                    </li>
-
-                    @auth()
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('order.home') }}">@lang('order.home')</a>
-                        </li>
-                    @endauth
 
                 </ul>
             </div>
