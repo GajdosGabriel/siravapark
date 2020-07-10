@@ -69,15 +69,15 @@
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 my-8">
             <div class="overflow-hidden" >
-                <a href="{{ asset('images/taborisko/taborisko27.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko27.jpg') }}" class="rounded-sm w-full"  alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko39.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko39.jpg') }}" class="rounded-sm w-full"  alt=""></a>
             </div>
 
             <div class="overflow-hidden">
-                <a href="{{ asset('images/taborisko/taborisko28.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko28.jpg') }}" class="rounded-sm w-full" alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko40.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko40.jpg') }}" class="rounded-sm w-full" alt=""></a>
             </div>
 
             <div class="overflow-hidden">
-                <a href="{{ asset('images/taborisko/taborisko29.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko29.jpg') }}" class="rounded-sm w-full" alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko41.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko41.jpg') }}" class="rounded-sm w-full" alt=""></a>
             </div>
 
         </div>
@@ -104,22 +104,22 @@
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-6 my-8">
             <div class="overflow-hidden " >
-                <a href="{{ asset('images/taborisko/taborisko33.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko33.jpg') }}" class="rounded-sm w-full"  alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko42.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko42.jpg') }}" class="rounded-sm w-full"  alt=""></a>
             </div>
 
             <div class="overflow-hidden">
-                <a href="{{ asset('images/taborisko/taborisko34.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko34.jpg') }}" class="rounded-sm w-full" alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko43.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko43.jpg') }}" class="rounded-sm w-full" alt=""></a>
             </div>
 
             <div class="overflow-hidden">
-                <a href="{{ asset('images/taborisko/taborisko35.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko35.jpg') }}" class="rounded-sm w-full" alt=""></a>
+                <a href="{{ asset('images/taborisko/taborisko44.jpg') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/sm/taborisko44.jpg') }}" class="rounded-sm w-full" alt=""></a>
             </div>
 
         </div>
 
 
         <div class="embed-responsive embed-responsive-16by9 d-print-none">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7a0GmRDs2gQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HTEfGBAiSvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <p class="mt-4">@lang('public/taborisko.text4')</p>
