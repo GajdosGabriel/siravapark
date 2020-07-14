@@ -171,14 +171,15 @@
 
                         <img src="{{ asset('images/contact/kl.jpg') }}" class="img-fluid w-100" alt="">
 
-                        <h4 class="xs-mt-20">Klokočov, @lang('contact.state')</h4>
 
-                        <address class="sirava">
-                            <span class="col_blue">@lang('contact.address'):</span> Klokočov 54, <br> Vinné, 072 31<br>
+                        <address class="sirava my-2">
+                            <div class=""><span class="col_blue">@lang('contact.office'):</span> Klokočov, @lang('contact.state')</div>
 
-                            <span class="col_blue">@lang('contact.phone'):</span>+421 915 36 46 22<br>
+                            <div><span class="col_blue">@lang('contact.address'):</span> Klokočov 54, Vinné, 072 31</div>
 
-                            <span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a><br>
+                            <div><span class="col_blue">@lang('contact.phone'):</span>+421 915 36 46 22</div>
+
+                            <div><span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a></div>
 
                             {{--<span class="col_blue">@lang('contact.company'):</span> 51 773 074<br>--}}
 
@@ -189,11 +190,48 @@
 
                     <div class="col-12 col-lg-8">
 {{--                        <div class="embed-responsive embed-responsive-16by9">--}}
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d84075.38796828089!2d22.043356!3d48.813271!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssk!2ssk!4v1589199604878!5m2!1ssk!2ssk" width="100%" height="950" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      {{--   <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d84075.38796828089!2d22.043356!3d48.813271!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssk!2ssk!4v1589199604878!5m2!1ssk!2ssk" width="100%" height="950" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      --}}
 {{--                            <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d37497.43764775952!2d21.976342452157446!3d48.79273176433241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e3!4m3!3m2!1d48.811292599999994!2d22.041712699999998!4m0!5e0!3m2!1sen!2ssk!4v1545398277418" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>--}}
-{{--                        </div>--}}
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42055.46391153331!2d21.9837688!3d48.7920747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473936e877493d69%3A0x43ccb36f952bebc4!2zWmVtcGzDrW5za2EgxaHDrXJhdmEgLSBzdHJlZGlza28gUGHEvmtvdg!5e0!3m2!1ssk!2shr!4v1594721516982!5m2!1ssk!2shr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                        {{--                        </div>--}}
                     </div>
+
+
                 </div>
+
+
+
+            <div class="row my-8">
+                <div class="col-12 col-lg-4">
+
+                    <h2 class="text-2xl font-semibold">Šírava Park</h2>
+
+                    <address class="sirava my-2">
+
+                        <div><span class="col_blue">@lang('contact.address'):</span> Zemplínska Šírava - Stredisko Paľkov, Vinné, 072 31</div>
+
+                        <div><span class="col_blue">@lang('contact.phone'):</span>+421 915 36 46 22</div>
+
+                        <div><span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a></div>
+
+                        {{--<span class="col_blue">@lang('contact.company'):</span> 51 773 074<br>--}}
+
+                        {{--<span class="col_blue">@lang('contact.lei'):</span> 097900BIHN0000163735<br>--}}
+                    </address>
+
+                </div>
+
+                <div class="col-12 col-lg-8">
+                    <img src="{{ asset('images/taborisko/taborisko40.jpg') }}" class="img-fluid w-100" alt="">
+                </div>
+
+
+            </div>
+
+
+
 
         </div>
 

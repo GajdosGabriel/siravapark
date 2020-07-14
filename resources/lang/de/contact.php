@@ -2,6 +2,7 @@
 
 return [
 
+    'office' => 'Büro',
     'title' => 'Treten Sie mit uns in Kontakt',
     'state' => 'Slowakische Republik',
     'text' => 'Die Šírava Park, s.r.o. ist der Hauptentwickler des Projekts Šírava Park in der Slowakei.',

@@ -2,6 +2,7 @@
 
 return [
 
+    'office' => 'Hivatal',
     'title' => 'Kapcsolatba lépni velünk',
     'state' => 'Szlovák Köztársaság',
     'text' => 'A Šírava Park, s.r.o. a Šírava Park projekt fő fejlesztője Szlovákiában.',

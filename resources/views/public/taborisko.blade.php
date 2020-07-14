@@ -118,6 +118,15 @@
         </div>
 
 
+
+        <div class="my-8">
+            <div class="overflow-hidden" >
+                <a href="{{ asset('images/taborisko/stand_up_comedy.png') }}" target="_blank" data-lightbox="photos"><img src="{{ asset('images/taborisko/stand_up_comedy.png') }}" class="rounded-sm w-full"  alt=""></a>
+            </div>
+
+        </div>
+
+
         <div class="embed-responsive embed-responsive-16by9 d-print-none">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HTEfGBAiSvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

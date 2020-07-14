@@ -2,6 +2,7 @@
 
 return [
 
+    'office' => 'Kancelář',
     'title' => 'Kontaktujte nás',
     'state' => 'Slovensko',
     'text' => 'Šírava Park, s.r.o. je hlavním developerem projektu Šírava Park, Slovensko.',

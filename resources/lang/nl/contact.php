@@ -2,6 +2,7 @@
 
 return [
 
+    'office' => 'Kantoor',
     'title' => 'Neem contact op met ons',
     'state' => 'Slowakije',
     'text' => 'CEE Real Estate Group is de belangrijkste ontwikkelaar van het project Šírava Park in Slowakije.',

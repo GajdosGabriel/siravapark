@@ -2,11 +2,12 @@
 
 return [
 
+    'office' => 'Kancelária',
     'title' => 'Kontaktujte nás',
     'state' => 'Slovenská Republika',
     'text' => 'CEE Real Estate Group je hlavným developerom projektu Šírava Park, Slovensko.',
     'head' => 'Sídlo spoločnosti Šírava Park, s.r.o.',
-    'address' => 'Addresa',
+    'address' => 'Adresa',
     'phone' => 'Telefón',
     'company' => 'IČO',
     'lei' => 'Identifikátor právnickej osoby (LEI)',

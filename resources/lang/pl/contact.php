@@ -2,6 +2,7 @@
 
 return [
 
+    'office' => 'Gabinet',
     'title' => 'Skontaktuj się z nami',
     'state' => 'Republika Słowacka',
     'text' => 'CEE Real Estate Group jest głównym deweloperem projektu Šírava Park na Słowacji.',

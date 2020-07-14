@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    'office' => 'Office',
     'title' => 'Get in touch with us',
     'state' => 'Slovakia',
     'text' => 'CEE Real Estate Group is the main developer of Šírava Park project in Slovakia.',
