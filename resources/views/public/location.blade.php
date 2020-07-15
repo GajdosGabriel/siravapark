@@ -169,7 +169,25 @@
                         </div>
                         {{--<p class="h4 text-center">@lang('contact.head')</p>--}}
 
-                        <img src="{{ asset('images/contact/kl.jpg') }}" class="img-fluid w-100" alt="">
+                        <h2 class="text-2xl font-semibold mb-6">Šírava Park</h2>
+                        <img src="{{ asset('images/taborisko/sm/taborisko40.jpg') }}" class="img-fluid rounded" alt="">
+
+                        <address class="sirava my-2 mb-4">
+
+                            <div><span class="col_blue">@lang('contact.address'):</span> Zemplínska Šírava - Stredisko Paľkov, Vinné, 072 31</div>
+
+                            <div><span class="col_blue">@lang('contact.phone'):</span>+421 (0)911 141 718</div>
+
+                            <div><span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a></div>
+
+                            {{--<span class="col_blue">@lang('contact.company'):</span> 51 773 074<br>--}}
+
+                            {{--<span class="col_blue">@lang('contact.lei'):</span> 097900BIHN0000163735<br>--}}
+                        </address>
+
+
+
+                        <img src="{{ asset('images/contact/kl.jpg') }}" class="img-fluid rounded-sm w-100" alt="">
 
 
                         <address class="sirava my-2">
@@ -177,7 +195,7 @@
 
                             <div><span class="col_blue">@lang('contact.address'):</span> Klokočov 54, Vinné, 072 31</div>
 
-                            <div><span class="col_blue">@lang('contact.phone'):</span>+421 915 36 46 22</div>
+                            <div><span class="col_blue">@lang('contact.phone'):</span>+421 (0)911 141 718</div>
 
                             <div><span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a></div>
 
@@ -201,34 +219,6 @@
 
                 </div>
 
-
-
-            <div class="row my-8">
-                <div class="col-12 col-lg-4">
-
-                    <h2 class="text-2xl font-semibold">Šírava Park</h2>
-
-                    <address class="sirava my-2">
-
-                        <div><span class="col_blue">@lang('contact.address'):</span> Zemplínska Šírava - Stredisko Paľkov, Vinné, 072 31</div>
-
-                        <div><span class="col_blue">@lang('contact.phone'):</span>+421 915 36 46 22</div>
-
-                        <div><span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a></div>
-
-                        {{--<span class="col_blue">@lang('contact.company'):</span> 51 773 074<br>--}}
-
-                        {{--<span class="col_blue">@lang('contact.lei'):</span> 097900BIHN0000163735<br>--}}
-                    </address>
-
-                </div>
-
-                <div class="col-12 col-lg-8">
-                    <img src="{{ asset('images/taborisko/taborisko40.jpg') }}" class="img-fluid w-100" alt="">
-                </div>
-
-
-            </div>
 
 
 

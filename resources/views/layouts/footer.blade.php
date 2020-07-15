@@ -51,8 +51,7 @@
         | <a href="" data-toggle="modal" data-target="#mediaModal">@lang('media.media')</a></p>
 
 
-    <div class="text-xs my-2">Šírava Park, s.r.o., Gorkého 5, 81101 Bratislava, Slovakia, <a href="tel:+421915364622">+421 (0)915
-            36 46 22</a>, <a href="mailto:info@siravapark.com"> info@siravapark.com</a></div>
+    <div class="text-xs my-2">Šírava Park, s.r.o., Gorkého 5, 81101 Bratislava, Slovakia, <a href="tel:+421915364622">+421 (0)911 141 718</a>, <a href="mailto:info@siravapark.com"> info@siravapark.com</a></div>
 
     <div class="">Šírava Park &copy; {{ '2018 - ' . date('Y') }}</div>
 </div>
