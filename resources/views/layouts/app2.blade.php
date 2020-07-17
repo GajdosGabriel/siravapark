@@ -80,7 +80,7 @@
 
 @include('includes.codes.smartlook')
 
-@include('includes.codes.chat')
+{{-- @include('includes.codes.chat')--}}
 
 @yield('addJS')
 
