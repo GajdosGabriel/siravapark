@@ -11,19 +11,15 @@ class OrderController extends Controller
         return view('member.orders.home');
     }
 
-    public function index() {
-        return Order::latest()->paginate(10);
-    }
-
-    public function search($search) {
+    public function search($search = null) {
         return Order::where('full_name', 'like', '%'. $search .'%')
             ->orWhere('phone', 'like', '%' . $search . '%')
             ->orWhere('email', 'like', '%' . $search . '%')
             ->paginate(10);
     }
 
-
     public function store(Request $request) {
+
 
         $request->validate([
             'full_name' => 'required',

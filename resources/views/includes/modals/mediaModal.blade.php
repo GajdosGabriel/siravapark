@@ -84,6 +84,7 @@
                             <a href="https://youtu.be/AEyUvulc6Dc?t=30" target="_blank">04.02.2020</a><br>
                             <a href="https://youtu.be/hcy5mOCcWqQ?t=4888" target="_blank">25.02.2020</a><br>
                             <a href="https://youtu.be/R74sWINVBhI?t=25" target="_blank">05.04.2020</a><br>
+                            <a href="https://youtu.be/464v8U0rmBY" target="_blank">21.07.2020</a><br>
                         </div>
                     </div>
 

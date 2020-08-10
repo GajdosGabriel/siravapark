@@ -2243,7 +2243,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   watch: {
     search: function search(val) {
-      this.tableSearch();
+      this.getOrder();
     }
   },
   methods: {
@@ -2251,31 +2251,18 @@ __webpack_require__.r(__webpack_exports__);
       this.formOpen = !this.formOpen;
       this.resetForm();
     },
-    tableSearch: function tableSearch() {
+    getOrder: function getOrder() {
       var _this = this;
 
-      this.searching = true;
-
-      if (!this.search.length > 0) {
-        this.getOrder();
-      }
-
-      axios.get(this.urlSearch + this.search).then(function (response) {
-        _this.orders = response.data.data;
-      });
-    },
-    getOrder: function getOrder() {
-      var _this2 = this;
-
       var $this = this;
-      axios.get(this.url).then(function (response) {
-        _this2.orders = response.data.data;
+      axios.get('/order/search/' + this.search).then(function (response) {
+        _this.orders = response.data.data;
 
-        _this2.makePagination(response.data);
+        _this.makePagination(response.data);
       });
     },
     store: function store() {
-      var _this3 = this;
+      var _this2 = this;
 
       axios.post('/order/store', {
         full_name: this.form.full_name,
@@ -2287,9 +2274,9 @@ __webpack_require__.r(__webpack_exports__);
         start_at: this.form.start_at,
         end_at: this.form.end_at
       }).then(function (response) {
-        return _this3.orders = response.data;
+        return _this2.orders = response.data;
       })["catch"](function (error) {
-        return _this3.errors.record(error.response.data.errors);
+        return _this2.errors.record(error.response.data.errors);
       }); // this.formOpen = false;
       // this.resetForm();
       // this.getOrder();
@@ -2380,16 +2367,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       formOpen: true,
-      form: {
-        full_name: '',
-        email: '',
-        phone: '',
-        adult: '',
-        child: '',
-        days: '',
-        start_at: '',
-        end_at: ''
-      },
+      form: {},
       errors: new _errors__WEBPACK_IMPORTED_MODULE_1__["Errors"]()
     };
   },
@@ -2402,16 +2380,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     store: function store() {
-      axios.post('/order/store', {
-        full_name: this.form.full_name,
-        email: this.form.email,
-        phone: this.form.phone,
-        adult: this.form.adult,
-        child: this.form.child,
-        days: this.form.days,
-        start_at: this.form.start_at,
-        end_at: this.form.end_at
-      }); // .then(response => (this.orders = response.data))
+      axios.post('/order/store', this.form); // .then(response => (this.orders = response.data))
       // .catch( error => this.errors.record(error.response.data.errors) );
       // this.formOpen = false;
       // this.resetForm();

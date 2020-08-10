@@ -47,16 +47,7 @@
         data: function () {
             return {
                 formOpen: true,
-                form: {
-                    full_name: '',
-                    email: '',
-                    phone: '',
-                    adult: '',
-                    child: '',
-                    days: '',
-                    start_at: '',
-                    end_at: '',
-                },
+                form: {},
                 errors: new Errors()
             }
         },
@@ -67,16 +58,7 @@
         },
         methods: {
             store: function () {
-                axios.post('/order/store', {
-                    full_name: this.form.full_name,
-                    email: this.form.email,
-                    phone: this.form.phone,
-                    adult: this.form.adult,
-                    child: this.form.child,
-                    days: this.form.days,
-                    start_at: this.form.start_at,
-                    end_at: this.form.end_at,
-                })
+                axios.post('/order/store', this.form)
                     // .then(response => (this.orders = response.data))
                     // .catch( error => this.errors.record(error.response.data.errors) );
 

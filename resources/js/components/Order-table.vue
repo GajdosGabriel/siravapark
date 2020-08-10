@@ -133,7 +133,7 @@
         },
         watch: {
             search: function (val) {
-                this.tableSearch();
+                this.getOrder();
             }
         },
         methods: {
@@ -141,22 +141,11 @@
                 this.formOpen =! this.formOpen;
                 this.resetForm();
             },
-            tableSearch: function () {
-                this.searching = true;
-                if (!this.search.length > 0) {
-                    this.getOrder()
-                }
-
-                axios.get(this.urlSearch + this.search)
-                    .then(response => {
-                        this.orders = response.data.data
-                    })
-            },
             getOrder: function () {
-                let $this = this
-                axios.get(this.url)
+                let $this = this;
+                axios.get('/order/search/' + this.search)
                     .then(response => {
-                            this.orders = response.data.data
+                            this.orders = response.data.data;
                             this.makePagination(response.data)
                         }
                     );
