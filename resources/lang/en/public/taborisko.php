@@ -2,10 +2,10 @@
 
 return [
 
-    'title' => 'PARTY BEACH',
+    'title' => 'Camping',
     'price_list' => 'Price list',
     'check_availability' => 'Check availability',
-    'text1' => 'Šírava Park - TÁBORISKO 2020 at the Zemplínska Šírava reservoir. Throughout the summer, families, parties and especially people who want to take a break from everyday stress within the permitted government regulations will find a place to relax.',
+    'text1' => 'Šírava Park -  Camping 2020 at the Zemplínska Šírava reservoir. Throughout the summer, families, parties and especially people who want to take a break from everyday stress within the permitted government regulations will find a place to relax.',
     'text2' => 'It is a camping ground, which will be spread over about 53,000 m2 on the banks of the Zemplínská Šírava reservoir. Campers, caravans and tents will find their place at a safe distance to prevent the spread of the
      <a href="http://www.uvzsr.sk/index.php?option=com_content&view=category&layout=blog&id=250&Itemid=153" target="_blank"> COVID-19 virus.</a>',
     'text3' => 'Not only security service, gastronomic trailers, private beaches and water sports for holidaymakers but also peace and a wonderful combination of nature with relaxation will be the main attraction of our Slovak sea.',

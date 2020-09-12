@@ -187,22 +187,20 @@
 
 
 
-                        <img src="{{ asset('images/contact/kl.jpg') }}" class="img-fluid rounded-sm w-100" alt="">
+{{--                        <img src="{{ asset('images/contact/kl.jpg') }}" class="img-fluid rounded-sm w-100" alt="">--}}
+{{--                        <address class="sirava my-2">--}}
+{{--                            <div class=""><span class="col_blue">@lang('contact.office'):</span> Klokočov, @lang('contact.state')</div>--}}
 
+{{--                            <div><span class="col_blue">@lang('contact.address'):</span> Klokočov 54, Vinné, 072 31</div>--}}
 
-                        <address class="sirava my-2">
-                            <div class=""><span class="col_blue">@lang('contact.office'):</span> Klokočov, @lang('contact.state')</div>
+{{--                            <div><span class="col_blue">@lang('contact.phone'):</span>+421 (0)911 141 718</div>--}}
 
-                            <div><span class="col_blue">@lang('contact.address'):</span> Klokočov 54, Vinné, 072 31</div>
+{{--                            <div><span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a></div>--}}
 
-                            <div><span class="col_blue">@lang('contact.phone'):</span>+421 (0)911 141 718</div>
+{{--                            --}}{{--<span class="col_blue">@lang('contact.company'):</span> 51 773 074<br>--}}
 
-                            <div><span class="col_blue">E-mail:</span> <a href="mailto:info@siravapark.com">info@siravapark.com</a></div>
-
-                            {{--<span class="col_blue">@lang('contact.company'):</span> 51 773 074<br>--}}
-
-                            {{--<span class="col_blue">@lang('contact.lei'):</span> 097900BIHN0000163735<br>--}}
-                        </address>
+{{--                            --}}{{--<span class="col_blue">@lang('contact.lei'):</span> 097900BIHN0000163735<br>--}}
+{{--                        </address>--}}
 
                     </div>
 
